@@ -12,6 +12,7 @@ struct WeatherModel {
     let cityName: String
     let temperature: Double
     
+    //MARK: - Computed Properties
     var temperatureString: String {
         return String(format: "%.1f", temperature)
     }
